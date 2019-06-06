@@ -5,9 +5,6 @@ body{
 #intro{
     float: left;
 }
-/* #skills{
-    float: right;
-} */
 table,th,td{
     overflow-x:auto;
     border: 1px solid black;
