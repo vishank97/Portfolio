@@ -3,11 +3,17 @@
 
 <head>
     <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div id="intro">
+    <div class="jumbotron">
         <h1>Vishank Shah</h1>
         <h2>Data Scientist and Full Stack Developer</h2>
         <p>An intermediate developer with 1 year of experience in data science
@@ -16,44 +22,51 @@
             frameworks such as Angular and Struts and have a firm hand on core
             technologies like Java, C++, PHP, Python and JavaScript</p>
     </div>
-    <div>
-        <h1>Education</h1>
-        <span>
-            <h3>Bachelor of Engineering (Computer Engineering)</h3>
-            <p>Sinhgad Institute of Technology, Lonavala</p>
-        </span>
-        <span>
-            <h3>HSC - 66.15%</h3>
-            <p>K.C. College, Churchgate</p>
-        </span>
-        <span>
-            <h3>SSC - 84.20%</h3>
-            <p>S.K.I Jain High School, Marine Lines</p>
-        </span>
+    <div id="right">
+        <div>
+            <h1>Education</h1>
+            <span>
+                <h3>Bachelor of Engineering (Computer Engineering)</h3>
+                <p>Sinhgad Institute of Technology, Lonavala</p>
+            </span>
+            <span>
+                <h3>HSC - 66.15%</h3>
+                <p>K.C. College, Churchgate</p>
+            </span>
+            <span>
+                <h3>SSC - 84.20%</h3>
+                <p>S.K.I Jain High School, Marine Lines</p>
+            </span>
+        </div>
+        <div>
+            <h1>Hobbies</h1>
+            <span>
+                <h3>Volunteer Work</h3>
+                <p>Donating necessities at a local orphanage.</p>
+            </span>
+            <span>
+                <h3>Travelling</h3>
+                <p>Love Trekking and exploring new places</p>
+            </span>
+            <span>
+                <h3>Reading</h3>
+                <p>A bookworm. Love Reading fictional and non-fictional books.</p>
+            </span>
+            <span>
+                <h3>Sports</h3>
+                <p>Badminton and Swimming.</p>
+            </span>
+            <span>
+                <h3>Movies</h3>
+                <p>Connoisseur in thriller and sci-fi movies.</p>
+            </span>
+        </div>
+        <div>
+            <h1>Certificates</h1>
+            <p>Intermediate Data Scientist with Python</p>
+        </div>
     </div>
-    <div>
-        <h1>Hobbies</h1>
-        <span>
-            <h3>Volunteer Work</h3>
-            <p>Donating necessities at a local orphanage.</p>
-        </span>
-        <span>
-            <h3>Travelling</h3>
-            <p>Love Trekking and exploring new places</p>
-        </span>
-        <span>
-            <h3>Reading</h3>
-            <p>A bookworm. Love Reading fictional and non-fictional books.</p>
-        </span>
-        <span>
-            <h3>Sports</h3>
-            <p>Badminton and Swimming.</p>
-        </span>
-        <span>
-            <h3>Movies</h3>
-            <p>Connoisseur in thriller and sci-fi movies.</p>
-        </span>
-    </div>
+
     <div>
         <h1>Positions of Responsibility</h1>
         <ol>
@@ -65,16 +78,73 @@
                 competition.</li>
         </ol>
     </div>
-    <div id="skills">
+    <div class="">
         <h1>Skills</h1>
-        <ol>
-            <li>Was head in event handling team at cPGCON which was held in my college and led a team of 20 members who
-                carried out the whole event very smoothly</li>
-            <li>Project Leader for an academic project (Library Management) in the 3rd year of engineering (scored
-                44/50).</li>
-            <li>House Captain of my school which went and one the first prize at the annual sports and culture day
-                competition.</li>
-        </ol>
+        <table class="" width="600px">
+            <!-- <thead class="thead-dark"> -->
+            <tr>
+                <th>Frontend Technologies</th>
+                <th>Skill Level (1-5)</th>
+                <th>Backend/Traditional Programming</th>
+                <th>Skill Level (1-5)</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>4</td>
+                <td>PhP</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>4</td>
+                <td>Java</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>3</td>
+                <td>C++</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>2</td>
+                <td>Python</td>
+                <td>3</td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <div>
+        <h1>Personal Projects</h1>
+        <ul>
+            <strong>Library Management System (09/2018 – 10/2018)</strong>
+            <li>I'd built a desktop application using Java and JavaFX to build an intuitive material designed Library
+                Management System as my college project.</li>
+            <br>
+            <strong>Billing System (03/2019 – 04/2019)</strong>
+            <li>I'd developed a simple billing system using AngularJS, Javascript, HTML, CSS as an academic assignment.
+            </li>
+            <br>
+            <strong>Personal Blog (05/2019 – 05/2019)</strong>
+            <li>As I was learning web technologies, I built a simple blog using HTML and CSS and hosted it on GitHub.
+                It's nothing much but by doing
+                small projects like this gives me a lot of confidence and makes me
+                learn things in a positive way. (vishank97.github.io)</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>Interests</h1>
+        <ul>
+            <li>Analysing the data and making decisions, Networking
+                with people, talk about current affairs and solve real-life
+                problems.</li>
+            <li>Learning about new technologies like AI, Blockchain, AR &
+                VR.</li>
+            <li>Writing blogs and help close friends and relatives about
+                new technologies and spread knowledge.</li>
+        </ul>
     </div>
 </body>
 

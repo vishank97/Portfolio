@@ -1,3 +1,28 @@
-h1, p {
-  font-family: Lato;
+body{
+    font-family: Lato;
+    background-color: antiquewhite;
+}
+#intro{
+    float: left;
+}
+/* #skills{
+    float: right;
+} */
+table,th,td{
+    overflow-x:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px;
+}
+th{
+    background-color: beige;
+    text-align: left;
+}
+#skills tr:hover{
+    background-color:#ddd;
+}
+#right{
+    float:right;
 }
